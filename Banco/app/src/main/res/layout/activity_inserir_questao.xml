@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#bb4444"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inserir_questao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.luca.banco.InserirQuestao">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:text="@string/area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/area" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/areasSpinner" />
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:text="@string/texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/texto" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:background="#ffffff"
+                android:id="@+id/textoEdit"
+                android:height="200dp"/>
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:text="@string/instituicao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/instituicao" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:background="#ffffff"
+                android:id="@+id/instituicaoEdit" />
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:text="@string/alternativas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alternativas" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/addAlt"
+                        android:textSize="15dp"
+                        android:background="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/addAlt"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/removeAlt"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:background="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/removeAlt"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:text="@string/resposta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/resposta" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/respostaSpinner" />
+
+            <Button
+                android:text="@string/enviar"
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/enviar" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

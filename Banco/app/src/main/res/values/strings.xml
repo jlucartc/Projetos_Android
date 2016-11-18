@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Banco</string>
+    <string name="login_string">Usuario</string>
+    <string name="password_string">Senha</string>
+    <string name="button_string">Ir</string>
+    <string name="error_string">Login inválido</string>
+    <string name="is_logged_in">isLoggedIn</string>
+    <string name="user">user</string>
+    <string name="logout_button">Logout</string>
+    <string name="mat">Matemática</string>
+    <string name="port">Português</string>
+    <string name="quim">Química</string>
+    <string name="fis">Física</string>
+    <string name="hist">História</string>
+    <string name="id">Id</string>
+    <string name="area">Area</string>
+    <string name="texto">Texto</string>
+    <string name="instituicao">Instituição</string>
+    <string name="estado">Estado</string>
+    <string name="alternativas">Alternativas</string>
+    <string name="resposta">Resposta</string>
+    <string name="inserirQuestao">inserir questao</string>
+    <string name="addAlt">Adicionar</string>
+    <string name="removeAlt">Remover</string>
+    <string name="enviar">Enviar</string>
+    <string-array name="areas">
+        <item>Matematica</item>
+        <item>Português</item>
+        <item>Química</item>
+        <item>Física</item>
+        <item>História</item>
+    </string-array>
+
+
+</resources>

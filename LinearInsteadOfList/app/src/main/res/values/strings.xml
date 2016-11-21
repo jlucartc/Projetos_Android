@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LinearInsteadOfList</string>
+    <string name="area">Area</string>
+    <string name="texto">Texto</string>
+    <string name="instituicao">Instituição</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="remover">Remover</string>
+    <string name="resposta">Resposta</string>
+    <string name="enviar">Enviar</string>
+    <string name="alternativas">Alternativas</string>
+    <string-array name="areas">
+        <item>Matemática</item>
+        <item>Português</item>
+        <item>Química</item>
+        <item>Física</item>
+        <item>História</item>
+    </string-array>
+</resources>

@@ -29,21 +29,19 @@
                 android:textColor="#ffffff"
                 android:text="@string/area"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/area" />
+                android:layout_height="wrap_content" />
 
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/areasSpinner" />
+                android:id="@+id/area" />
 
             <TextView
                 android:textSize="20dp"
                 android:textColor="#ffffff"
                 android:text="@string/texto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/texto" />
+                android:layout_height="wrap_content" />
 
             <EditText
                 android:layout_marginTop="10dp"
@@ -53,7 +51,7 @@
                 android:inputType="textPersonName"
                 android:ems="10"
                 android:background="#ffffff"
-                android:id="@+id/textoEdit"
+                android:id="@+id/texto"
                 android:height="200dp"/>
 
             <TextView
@@ -61,8 +59,7 @@
                 android:textColor="#ffffff"
                 android:text="@string/instituicao"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/instituicao" />
+                android:layout_height="wrap_content"/>
 
             <EditText
                 android:layout_marginTop="10dp"
@@ -72,15 +69,14 @@
                 android:inputType="textPersonName"
                 android:ems="10"
                 android:background="#ffffff"
-                android:id="@+id/instituicaoEdit" />
+                android:id="@+id/instituicao" />
 
             <TextView
                 android:textSize="20dp"
                 android:textColor="#ffffff"
                 android:text="@string/alternativas"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/alternativas" />
+                android:layout_height="wrap_content"/>
 
             <LinearLayout
                 android:orientation="vertical"
@@ -96,30 +92,30 @@
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:text="@string/addAlt"
+                        android:text="@string/adicionar"
                         android:textSize="15dp"
                         android:background="#ffffff"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/addAlt"
+                        android:id="@+id/adicionar"
                         android:layout_weight="1" />
 
                     <Button
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:text="@string/removeAlt"
+                        android:text="@string/remover"
                         android:textColor="#000000"
                         android:textSize="15dp"
                         android:background="#ffffff"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/removeAlt"
+                        android:id="@+id/remover"
                         android:layout_weight="1" />
                 </LinearLayout>
 
                 <ListView
-                    android:id="@+id/listView"
+                    android:id="@+id/alternativas"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -130,13 +126,12 @@
                 android:textColor="#ffffff"
                 android:text="@string/resposta"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/resposta" />
+                android:layout_height="wrap_content" />
 
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/respostaSpinner" />
+                android:id="@+id/resposta" />
 
             <Button
                 android:text="@string/enviar"

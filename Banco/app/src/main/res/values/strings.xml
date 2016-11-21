@@ -20,11 +20,11 @@
     <string name="alternativas">Alternativas</string>
     <string name="resposta">Resposta</string>
     <string name="inserirQuestao">inserir questao</string>
-    <string name="addAlt">Adicionar</string>
-    <string name="removeAlt">Remover</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="remover">Remover</string>
     <string name="enviar">Enviar</string>
     <string-array name="areas">
-        <item>Matematica</item>
+        <item>Matemática</item>
         <item>Português</item>
         <item>Química</item>
         <item>Física</item>
